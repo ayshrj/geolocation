@@ -3,7 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  overflow: hidden;
 }
+
 
 .container {
   max-width: 600px;
@@ -12,7 +14,7 @@ body {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 200px;
 }
 
 .header {
@@ -24,31 +26,53 @@ body {
   text-align: center;
   margin-top: 20px;
 }
-        /* Container Styles */
-        .container {
-          width: 300px;
-          height: 300px;
-          background-color: #ccc; /* Gray background color */
-          display: flex;
-          justify-content: center;
-          align-items: center;
-      }
 
-      /* Button Styles */
-      .minimal-button {
-          padding: 10px 20px;
-          background-color: #f0f0f0;
-          border: 1px solid #ccc;
-          border-radius: 5px;
-          font-size: 16px;
-          color: #333;
-          text-decoration: none;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-      }
+.container {
+    width: 300px;
+    height: 300px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-      /* Button Hover Effect */
-      .minimal-button:hover {
-          background-color: #333;
-          color: #fff;
-      }
+.minimal-button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.minimal-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+@media screen and (min-width: 767px) {
+  .container {
+    margin-top: 200px;
+  }
+}
+
+.quote {
+  color: black;
+}
+
+.kanye {
+  display: flex;
+  padding-top: 50px;
+  width: 300px; /* Keep the fixed width */
+  margin: 0 auto; /* Center horizontally */
+  align-items: center;
+  justify-content: center;
+}
+
+.kanye-name {
+  padding-top: 0px;
+  margin-top: 5px;
+}
