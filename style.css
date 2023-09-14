@@ -1,25 +1,29 @@
-.container {
-  width: 300px;
-  height: 300px;
-  background-color: #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+        /* Container Styles */
+        .container {
+          width: 100%; /* Use the full width of the viewport */
+          height: auto; /* Adjust height automatically */
+          background-color: #ccc; /* Gray background color */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px; /* Add some padding for spacing */
+      }
 
-.minimal-button {
-  padding: 10px 20px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-  color: #333;
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-}
+      /* Button Styles */
+      .minimal-button {
+          padding: 10px 20px;
+          background-color: #f0f0f0;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-size: 16px;
+          color: #333;
+          text-decoration: none;
+          cursor: pointer;
+          transition: background-color 0.3s, color 0.3s;
+      }
 
-.minimal-button:hover {
-  background-color: #333;
-  color: #fff;
-}
+      /* Button Hover Effect */
+      .minimal-button:hover {
+          background-color: #333;
+          color: #fff;
+      }
